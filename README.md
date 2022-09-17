@@ -11,7 +11,7 @@
 1.Склонируйте репозиторий в рабочее пространство командной:
 
 ```
-git clone git@github.com:Gelliantida/api_yamdb.git
+git clone git@github.com:IlyaMashin/yamdb_final.git
 ```
 
 2.Установите виртуальное окружение в текущем каталоге командой:
@@ -23,7 +23,8 @@ python3 -m venv venv
 3.Активируйте виртуальное окружение и установите все зависимости в соответсвии с подготовленным файлом `requirements.txt`:
 
 ```
-source ./venv/bin/activate
+source venv/bin/activate (for Linux)
+source venv/Scripts/activate (for Windows)
 pip install -r requirements.txt
 ```
 
@@ -53,5 +54,3 @@ python manage.py filling_database
 ***Разработчики:*** </br>
 
 - [Илья Машин](https://github.com/IlyaMashin/);
-- [Павел Смирнов](https://github.com/bannybaks/);
-- [Тарас Вдовиченко](https://github.com/Gelliantida/).
