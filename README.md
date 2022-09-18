@@ -54,3 +54,7 @@ python manage.py filling_database
 ***Разработчики:*** </br>
 
 - [Илья Машин](https://github.com/IlyaMashin/);
+
+### Примеры запросов:
+http://51.250.88.125/redoc/
+http://51.250.88.125/admin/
