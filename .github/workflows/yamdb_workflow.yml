@@ -32,7 +32,6 @@ jobs:
 
     - name: Pytest
       run: |
-        cd
         pytest
 
   build_and_push_to_docker_hub:
