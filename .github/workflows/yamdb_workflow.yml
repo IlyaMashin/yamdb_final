@@ -65,6 +65,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
+          context: /home/mashin/
           script: |
             docker compose stop
             docker compose rm web
