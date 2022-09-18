@@ -65,8 +65,8 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
-          context: /home/mashin/
           script: |
+            cd
             docker compose stop
             docker compose rm web
             touch .env
